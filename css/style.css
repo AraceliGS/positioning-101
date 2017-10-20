@@ -1,0 +1,35 @@
+/*Ejemplo E*/
+/*En este caso, cada una de las cajas está posicionada de forma absoluta. Cada una está en una de las esquinas de la ventana del navegador, ya que se les a indicado de manera diferente un par de las propiedades top, right, bottom y left.*/
+
+#box_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #EE3E64;
+}
+#box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44ACCF;
+}
+#box_3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #B7D84B;
+}
+#box_4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #EBDE52;
+}

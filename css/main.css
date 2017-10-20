@@ -1,0 +1,22 @@
+/*Ejemplo A*/
+/*En este archivo estoy asignándole a mis 3 cajas diferentes colores de fondo, aunque el mismo tamaño y el valor position static. Por este último, dichas cajas (las cuales son elementos div) se comportarán en el flujo de manera normal, es decir, una estará encima de la otra( div es un elemento de bloque). */
+#box_1 {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #EE3E64
+}
+
+#box_2 {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #44ACCF
+}
+
+#box_3 {
+  position: static;
+  width: 200px;
+  height: 200px;
+  background: #B7D84B
+}

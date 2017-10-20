@@ -1,0 +1,26 @@
+/*Ejemplo D*/
+/*En este archivo estoy asignándole a mis 3 cajas diferentes colores de fondo, aunque el mismo tamaño y el valor position relative. Por este último, se supondría que estas cajas se tendrían que desplazar a una posición indicada por las propiedades top, right, bottom y/o left. Si bien es cierto a la caja 1 y 3 no se les ha asignado alguna de estas propiedades, a la caja 2 se le asignó la propiedad left y se le dio el valor de 200 píxeles(px). Esto hará que la caja 2 se desplaze hacia la derecha 200px.*/
+
+#box_1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #EE3E64;
+}
+
+#box_2 {
+	position: relative;
+  left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44ACCF;
+}
+
+#box_3 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #B7D84B;
+}
+
+/*Cabe notar que en este ejemplo al estar la caja 2 contenida en la caja 1, va a tomar como referencia la caja 1 para desplazarse y por eso aparece a su costado.*/

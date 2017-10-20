@@ -1,0 +1,32 @@
+/*En el ejemplo I, estoy aplicandole el valor de posicionamiento fixed a la caja 2, la cual es el footer de mi página web. A la caja 1 le aplico un margin para que mi documento tenga una buena presentación*/
+body {
+  margin: 8px;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+#box_1 {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#box_2 {
+  position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  background: #F95B34;
+  padding: 10px 0;
+}
+
+#box_2 p {
+  width: 900px;
+  margin: 0 auto;
+}

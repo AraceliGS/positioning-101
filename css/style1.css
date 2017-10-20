@@ -1,0 +1,42 @@
+/*En el ejemplo F, los elementos hijos con el atributo de clase box_child se desplazarán tomando como referencia a su elemento contenedor.*/
+#box_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #EE3E64;
+}
+#box_2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44ACCF;
+}
+#box_3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #B7D84B;
+}
+#box_4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #EBDE52;
+}
+
+.box_child {
+	position: absolute;
+  width: 40px;
+  height: 40px;
+	top: 39%;
+	left: 41%;
+	background: #F95B34;
+}

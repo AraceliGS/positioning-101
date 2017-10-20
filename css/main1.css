@@ -1,0 +1,22 @@
+/*Ejemplo B*/
+/*En este archivo estoy asignándole a mis 3 cajas diferentes colores de fondo, aunque el mismo tamaño y el valor position relative. Por este último, se supondría que estas cajas se tendrían que desplazar a una posición indicada por las propiedades top, right, bottom y/o left. No obstante, no se le ha dado ningún valor a alguna de estas propiedades en ninguna de estas reglas CSS (ni siquiera están escritas), así que las cajas se mantendrán en sus posiciones originales. */
+#box_1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #EE3E64;
+}
+
+#box_2 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44ACCF;
+}
+
+#box_3 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #B7D84B;
+}
