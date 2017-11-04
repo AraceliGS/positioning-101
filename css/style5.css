@@ -1,16 +1,20 @@
 /* Ejemplo J */
 
-/* Clases generales */
+/* Estilos generales */
 
 * {
-  /*box-sizing: border-box;*/
-  padding: 0;
   margin: 0;
   font-family: 'Arial', sans-serif;
 }
 
 body {
   background-color: #44accf;
+  font-size: 12px;
+}
+
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 /* Estilos para el elemento div cuyo atributo id vale container */
@@ -18,7 +22,6 @@ body {
 #container {
   width: 900px;
   margin: auto;
-  outline: 1px solid yellow;
 }
 
 /* Estilos para el menú de navegación*/
@@ -39,7 +42,6 @@ body {
   color: #fff;
   text-decoration: none;
   border-right: 1px solid #91ab3b;
-  font-size: 12px;
 }
 
 #nav a:hover {
@@ -50,11 +52,8 @@ body {
 
 #content {
   background-color: #fff;
-  font-size: 12px;
   line-height: 18px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 250px;
+  padding: 20px 250px 60px 20px;
   position: relative;
 }
 
@@ -72,8 +71,16 @@ body {
   width: 210px;
 }
 
-/*Estilos aplicados a todos los elementos p(párrafos) de content*/
-#content p {
-  margin-top: 12px;
-  margin-bottom: 12px;
+/*Estilos del pie de página*/
+
+#footer {
+  background-color: #f36283;
+  width: 860px;
+  padding: 0 20px;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer p {
+  margin: 14px 0;
 }
