@@ -3,7 +3,7 @@
 /* Clases generales */
 
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   padding: 0;
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -11,15 +11,14 @@
 
 body {
   background-color: #44accf;
-  height: 2000px;
 }
 
 /* Estilos para el elemento div cuyo atributo id vale container */
 
 #container {
   width: 900px;
-  height: 100%;
   margin: auto;
+  outline: 1px solid yellow;
 }
 
 /* Estilos para el menú de navegación*/
@@ -45,4 +44,36 @@ body {
 
 #nav a:hover {
   background-color: #91ab3b;
+}
+
+/*Estilos del contenedor del resto de los elementos*/
+
+#content {
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 250px;
+  position: relative;
+}
+
+/*Estilos del elemento div cuyo atributo id vale callout*/
+
+#callout {
+  background-color: #fa8366;
+  color: #fff;
+  border-top: 5px solid #f95b34;
+  position: absolute;
+  top: 100px;
+  right: -80px;
+  bottom: 100px;
+  padding: 0 20px;
+  width: 210px;
+}
+
+/*Estilos aplicados a todos los elementos p(párrafos) de content*/
+#content p {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
